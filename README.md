@@ -31,4 +31,4 @@ If you would like to classify a user input, select any boxes in the upper left a
 
 In order to pass back control from the webpage to the rasa classifier, press "Resume Chatbot"  
 Otherwise if you want to send off a message to the user, type a message and press "Send"  
-![](readmepics/presstoclassify.png)  
+![](readmepics/resumesend.png)  
