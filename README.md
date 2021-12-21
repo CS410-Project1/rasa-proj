@@ -21,8 +21,14 @@ in the "A Message Comes In" box, enter the ngrok forwarding address + /webhooks/
 ## SITE USAGE
 After typing http://127.0.0.1:5000/ into your browser, this page should show.  
 ![Example](readmepics/site.png)  
-Upon site start the Refresh button must be pressed to initialize busy waiting for user input.  
+Upon site start the Refresh button must be pressed to initialize busy waiting for user input.
+
 If would would like to send the opening message to any number of numbers, paste the numbers in the text box in the bottom left and press "Send Initial Texts"  
-![](readmepics/sendinitial.png)  
+![](readmepics/sendinitial.png)
+
 If you would like to classify a user input, select any boxes in the upper left and press "Press to Classify" to write the classification to a file named new_data.csv and then an appropriate message will be sent to the user.  
+![](readmepics/presstoclassify.png)  
+
+In order to pass back control from the webpage to the rasa classifier, press "Resume Chatbot"  
+Otherwise if you want to send off a message to the user, type a message and press "Send"  
 ![](readmepics/presstoclassify.png)  
