@@ -1,0 +1,54 @@
+version: "3.0"
+
+rules:
+- rule: ask position
+  steps:
+  - intent: ask_position
+  - action: utter_position
+
+- rule: ask location
+  steps:
+  - intent: ask_location
+  - action: utter_location
+
+- rule: ask wage
+  steps:
+  - intent: ask_wage
+  - action: utter_wage
+
+- rule: ask schedule
+  steps:
+  - intent: ask_schedule
+  - action: utter_schedule
+
+- rule: ask location
+  steps:
+  - intent: ask_location
+  - action: utter_location
+
+# - rule: activate form loop
+#   steps:
+#   - intent: affirm
+#   - action: hire_form
+#   - active_loop: hire_form
+
+# - rule: form loop
+#   condition:
+#   - active_loop: hire_form
+#   steps:
+#   - action: hire_form
+#   - active_loop: null
+#   - slot_was_set:
+#     - requested_slot: null
+
+- rule: fall back to write to csv
+  steps:
+  - intent: nlu_fallback
+  - action: action_pause_write_csv
+
+# - rule: get years exp
+#   condition:
+#   - active_loop: hire_form
+#   steps:
+#   - intent: say_years_exp
+#   - action: action_set_years

@@ -1,0 +1,100 @@
+version: "3.0"
+intents:
+  - affirm
+  - deny
+  - ask_position
+  - ask_location
+  - ask_wage
+  - ask_schedule
+  - other
+
+responses:
+  utter_position:
+    - text: "We are hiring for general manager and cashier positions. Are you interested?"
+
+  utter_location:
+    - text: "We have a few locations: Washington Street and School Street. Are you interested?"
+
+  utter_wage:
+    - text: "The wage is 18$ for manager, $15 for cashier. Are you interested?"
+
+  utter_schedule:
+    - text: "We are hiring for our midday and closing shifts."
+    - text: "Are you interested?"
+
+  utter_yes:
+    - text: "https://careers.mcdonalds.com/us-restaurants"
+
+  utter_wage_schedule:
+    - text: "We are hiring for our midday and closing shifts."
+    - text: "The postition has part time and full time openings."
+    - text: "Are you interested?"
+
+  utter_ask_first_name:
+    - text: "What is your first name?"
+
+  utter_ask_last_name:
+    - text: "What is your last name?"
+
+  utter_ask_position:
+    - text: "What position do you want (cashier, general manager)?"
+
+  utter_ask_schedule:
+    - text: "What timeslot do you want (midday, closing)?"
+
+  utter_ask_years_exp:
+    - text: "How many years of experience do you have?"
+
+actions:
+  - action_pause_write_csv
+  - action_resume_conversation
+
+entities:
+  - first_name
+  - last_name
+  - position
+  - timeslot
+  - years_exp
+
+slots:
+  first_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: entity_name
+  last_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: last_name
+  position:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: position
+  timeslot:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: timeslot
+  years_exp:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: years_exp
+
+forms:
+  hire_form:
+    required_slots:
+      - first_name
+      - last_name
+      - position
+      - timeslot
+      - years_exp
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false

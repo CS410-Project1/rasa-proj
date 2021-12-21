@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/mystyle.css">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/style.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="../static/base.js"></script>
+    <body>
+      <!-- Image and text -->
+      <nav class="navbar navbar-light bg-light">
+	<a class="navbar-brand" href="#" id="title">
+	  <img src="https://uploads-ssl.webflow.com/5e3b2c30f24a364353559f54/5e3c46b45be671d64f3903e5_SYRGlogoWeb.png" width="100" height="40" class="d-inline-block align-center" alt="">
+	  NLU Fallback
+	</a>
+      </nav>
+      <div id="menu" class="container-fluid main_container d-flex">
+	<div class="col-lg-6 col-md-6" id="left">
+	  <div class="row flex-fill">
+	    <div class="pt-3" id="question-back">
+	      <p id="question"><strong>User intent: </strong></p>
+	    </div>
+	    <div id="answers">
+	      <div class="user_question">
+		<div class="col-lg-3 col-md-3">
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="ask_location" name="ask_location">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Ask location</label>
+		  </div>
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="ask_wage" name="ask_wage">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Ask wage</label>
+		  </div>
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="ask_schedule" name="ask_schedule">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Ask schedule</label>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-4">
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="yes" name="yes">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Accepts job</label>
+		  </div>
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="no" name="no">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Rejects job</label>
+		  </div>
+		</div>
+		<div class="col-lg-4 col-md-4">
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="ask_position" name="ask_position">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Ask position</label>
+		  </div>
+		  <div class="form-check form-switch">
+		    <input class="form-check-input" type="checkbox" id="other" name="other">
+		    <label class="form-check-label" for="flexSwitchCheckDefault">Other</label>
+		  </div>
+		</div>
+	      </div>
+
+	      <button onclick="updateresponse()" class="btn btn-primary" id="classify-button">Press to Classify</button>
+	    </div>
+	    <div class="col-lg-8 col-md-12">
+	      <div class="form-group">
+		<label for="phone-text-area">Enter phone numbers for initial message</label>
+		<textarea class="form-control rounded-0" id="phone-text-area" rows="21" placeholder="Enter phone numbers with country and area codes.&#13;&#10Numbers can be delimited by whitespace or commas.&#13;&#10Examples:&#13;&#10&#13;&#10;12223334444 12223334444&#13;&#10;12223334444,12223334444"></textarea>
+	      <button onclick="masstext()" class="btn btn-primary" id="textbut">Send Initial Texts</button>
+
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<div class="row flex-fill">
+	  <div class="col-lg-12 col-md-12">
+	    <div class="row w-100 h-100">
+	      <div class="bottom col-lg-12 col-md-12" id="chat-history">
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="flex-grow-0 py-3 px-4 border-top">
+	      <input type="text" class="form-control" id="apiData" placeholder="Type your message">
+	      <button onclick="sendresponse()" class="btn btn-primary">Send</button>
+	      <button onclick="resumerasa()" class="btn btn-primary">Resume Chatbot</button>
+	      <button onclick="updatequestion()" class="btn btn-primary">Refresh</button>
+
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </body>
+    <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+      <!-- Grid container -->
+      <div class="container p-1"></div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center pb-2" style="background-color: rgba(0, 0, 0, 0.3);">
+	© 2021 Copyright:
+	<a class="text-white" href="https://www.syrghq.com/">CS410 Team 1</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+</html>

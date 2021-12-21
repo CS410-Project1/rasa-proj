@@ -1,0 +1,73 @@
+version: "3.0"
+
+stories:
+
+- story: recruit good 0
+  steps:
+  - intent: affirm
+  - action: utter_yes
+- story: recruit good 1
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: affirm
+  - action: utter_yes
+- story: recruit good 2
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: ask_schedule
+  - action: utter_schedule
+  - intent: affirm
+  - action: utter_yes
+
+- story: recruit good 3
+  steps:
+  - intent: ask_schedule
+  - action: utter_schedule
+  - intent: affirm
+  - action: utter_yes
+
+- story: recruit good 4
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: ask_schedule
+  - action: utter_schedule
+  - intent: ask_wage
+  - action: utter_wage
+  - intent: affirm
+  - action: utter_yes
+- story: recruit good 5
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: ask_position
+  - action: utter_position
+  - intent: affirm
+  - action: utter_yes
+
+- story: recruit good 6
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: affirm
+  - action: utter_yes
+
+- story: recruit bad 2
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: ask_schedule
+  - action: utter_schedule
+  - intent: deny
+
+- story: recruit bad
+  steps:
+  - intent: ask_position
+  - action: utter_position
+  - intent: ask_schedule
+  - action: utter_schedule
+  - intent: ask_wage
+  - action: utter_wage
+  - intent: deny

@@ -1,0 +1,592 @@
+version: "3.0"
+nlu:
+- intent: affirm
+  examples: |
+    - er yep
+    - Hey there I did get it. I was looking to be a manager if a position was open. I am a Asst GM for Frischs at the moment but if things over there can benefit me and your team I'll sit down and talk
+    - No problem I will get her to drop off a resume to the 2980 island highway location thank you
+    - We are interested but we cannot commit to a schedule at this time
+    - I would be interested and I am available in a few hours to talk to her
+    - I'm injured right now but interested in management..I used to work at that location
+    - I would've loved to come to White Castle, however I'm already working a full time position. If there are positions available there than full time, I'd love to take advantage. If not I understand, sorry for the late responseX I had lost my phone and had to wait for a replacement
+    - Hey if I'm interested in being a manager because I'm already serve safe certified and can prove that can I get a transfer with my same wages because I've been thinking of moving back to Corvallis for sometime but I currently am at the beacon location in Grants pass Oregon
+    - Can I think about it? I would need to work around my schedule. I would love to come back.
+    - Good Afternoon , I already work with White Castle at Newy 56 but would be interested in also taking shifts at the Bruckner location seeing as that is only 2 blocks away from my home . Let me know when I can talk with the manager and maybe we can figure something out !
+    - sure, ill come back
+    - YES. If you can pay me $25hr with a set schedule (opening) weekends off & NO MASK!
+    - Yes I'm still interested in the position look forward to hear back from you thank you PERSON PERSON
+    - yes obv
+    - whatever sure
+    - I can help turn that slow time around. I'm a born leader, I don't want to be manager to be a boss, I want to be manager because I have been in the restaurant industry for over 15 years and the customers are absolutely always right! This location here thinks otherwise so I can help turn everything around.
+    - Hi, I'm PERSON.  I am interested in work.  but only from Monday to Friday from 5:00 am to 2:00 pm I already have a job for weekends and afternoons.  If you accept my schedule, I can start now.  contact me at this number thanks ...
+    - I would like to but I was actually hired awhile back at your Ft. Oglethorpe location but took a job that paid more so.....I don't think I would be eligible.
+    - Greetings I apologize for the late response, I did not see this messages before, I am still interested of working with White Castle but I'm an currently working in another job I could give you my hours and days off to see if I'm still the best candidate for this Job, also I would like to thank you for the opportunity.   Days off : Sunday and Mondays  Free hours : Tuesdays 1am to 8am                 Wednesday's 1am to 8am                 Thursdays 1am to 8am                   Fridays      9am to 2pm                   Saturdays   9am to 2pm
+    - Sure the closest location to me is in canton ny.
+    - I had worked at that location back in 2018 and I would love to speak about a shift leader position.
+    - Hey how you doin mg buddy I would really love to the only reason I ha d to leave in the first place is cause my schedule I felt bad because Ik it's hard to work around
+    - Rob:  thank you for reaching out as far as me. I worked at that store for four and a half years as a driver. I did five days and closed five days a week. (About 78 hours a pay period) I then went to the holly springs store where I had the same schedule until my health decevied me and had to back off. Right now I don't know what I can do as I still have issues (I'm 66) and I have an open door at holly springs. The best I can say is a maybe. Thanks Jim balazs
+    - Hii. What position do you have available? I'm interested. Thank you.
+    - Sounds great.  Looking for District or Regional positions
+    - I sure would, I'm in florida until friday. Can we schedule for after?
+    - Absolutely not, I have a management job that I really like. I worked at your location and was extremely disappointed by the restaurant manager. All friends I know have jobs they are happy with. Thank you Sent from Yahoo Mail on Android On Mon, Jul 5, 2021 at 11:41 AM, rob@mail.hiringsyrg.com <rob@mail.hiringsyrg.com> wrote: Hey it's Arby's in 5150 Highway 49 South, Harrisburg, checking in one last time just to make sure you're getting our messages. Here's the link to a list of what we're hiring for in case you or a friend is interested in working here now or in the future! workatarbys.com
+    - kkkkkk
+    - Im Interested in in house position on Clarksville hwy
+    - I'm located in Houghton Lake and have another fulltime position. If you would be able to work with my existing travel im sure we could work something out
+    - Whats the store number? Because Im willing to start ASAP
+    - Hi Rob. I would agree to being a driver in the company car - company pays fuel, reg schedule of 5p-10p Wed, Thurs, Friday and Saturday, $16 hr base pay on or off road plus tips and the $500 sign on bonus. No switching stores. Thank you for your consideration. Let me know.
+    - Thanks for reaching out, but that was over 3 years ago. I'm currently a vehicle movement specialist and lot manager for Tesla. In all seriousness, if you have a position open that would offer any career advancement from where I am now, I'm open to hearing the offer. Hope you have a great rest of your week.  - PERSON
+    - Hey PERSON I currently have a job but I'm still interested is there a way we could work with the hours I already have?
+    - Interested in position I've been in restaurant business for 30plus yrs
+    - I have a great job with great people that pays a tremendous amount of money. I have great benefits and a flexible schedule. What can you offer me that would make me switch? Ha! Ok so I'm lying. When can I start?
+    - I am limited on hours I can work as I have a full time job.  But would be interested.
+    - Yes I'm getting the messages. Would only be interested in leadership positions and potential ownership. Income must equal or be greater than current income.  Thank you, Roger Hall
+    - Yes I don't mind let me get my schedule where I'm at now that way we don't conflict in each other's job
+    - okay
+    - Hello, Rob us I am still interested in an position if it's still available and would like to speak with an manager to further interest.
+    - yeah whatever
+    - I work full time at another location I can only take a part time position  at the moment
+    - yes obviously
+    - Hey the link isnt letting me click on it but I am very interested in the position
+    - Im interested. But not able to travel. And can only work at the whiting location. Plus not looking for work until the last week of july
+    - Hi Rob, thank you for reaching out ! I do have another job at Del Taco at the moment but if i could schedule an interview that would be great.
+    - Hello I'm sorry I missed this if this job is still up for a position i would like to schedule an interview
+    - okie
+    - Do you offer paid relocation? Perhaps a sign on bonus? I'm confident that you'll find my particular skill set intriguing, and feel I'd be an amazing asset to your team!
+    - Yes I'm quite interested in your job position please give me a call at seven one seven PHONE_NUMBER thank you
+    - I would be interested. I want to work exactly 69 hours a week, for $69 an hour
+    - I am potentially looking for District Manager positions. I'm a Regional Director of Operations and many years of multi unit manager experience.
+    - y
+    - Hello! I went to an interview at one of the locations and was stood up by the manager... I would be interested if I could actually have an interview! Lol
+    - alright
+    - sure :)
+    - Hi Rob, I'm currently at a position where I'm making 20$ an hour, if you were to match that I would be willing to talk with a manager about working at the perry store again. Thanks and have a great night.
+    - of course
+    - I might be interested in coming back to the new hope location.but i would have limited availability due to physical limitations and family obligations
+    - Yes but I'm in school still so will yal be able to work with my schedule
+    - Hello Rob, this is PERSON. My wife has a different job. But if you will consider me then Ill fill the position, no problem.
+    - er sure
+    - Give me about 2weeks to wrk my schedule for my other job
+    - yup
+    - correct
+    - Hi Rob! I've already worked for SS in hutto and I was an AM1 at the Pond Springs location. I don't know if I am eligible for rehire.
+    - :-) yeah
+    - I would like to but I work full time Sun-Thursday 1-10 so you'd have to work with my schedule
+    - I'm unsure if I'd be eligible for to be hired, I was temporarily employed with McDonald's for one week a couple years back and was unfortunately fired due to me misunderstanding my schedule and missing a shift.   If rehire were possible I'd be interested in talking about a possible position within the company
+    - I have a surgery coming up and I go to school in Manhattan so I'm not sure how that would work but when I have my finalized schedule I will get back to you. Thank you for this opportunity.
+    - Hi! Sorry for the late reply, are you still hiring at this location?
+    - hanks id love to
+    - Hi Taco Bell. I am a food service professional with 15 plus years experience. I am servsafe certified ,and I am also a certified foodservice management professional. I am looking for a flexible schedule and  a minimum of 62k a year and 4 weeks of pto a year. If you still want to chat about how I can help your company please let me know.
+    - I currently work at one of your locations in Perrysburg, As A Shift Manager but i am more than willing to transfer if thats an optiona
+    - Message received, I currently work down at Wendy's on 103 E Main Street. If you could offer better money, better hours, and benefits. I may be willing to change jobs
+    - aite
+    - I tried to call that number, and  press yes, I am still interested in the position. PERSON.
+    - ok
+    - Yes I am interested in applying for a job at your location. But I won't be able to start working there for a while. Is this something we could work around?
+    - indeed
+    - Yes I would but it has to be work it cause rn I'm working at budget  tire getting 14 am hr and there not being flexible with my schedule  so I would have to make at least 13.50
+    - I would be interested in managing, nothin less. And in an Copley Fairlawn location
+    - I already work at the White Castle on Hebert but I can pick up hours there
+    - okey dokey
+    - Hi! I've actually worked there before. Does it show I worked there? I am currently working a full time job. I can't offer full times. I might take some part time hours. I would have to talk about it first with a manager.
+    - Yes i would love to and am interested. And the reason for why i would love to work there is as hiring manager is because one i am young and young attract the young, so brining in young but hard working people to help them strive for whatever it is thier goals are is important and second to help in hiring people who will give a people the comfort the deserve and the service they deserve. That is why i would love to be hiring manager at your white castle location to help the customers see the location in an even better way
+    - erm ok
+    - I'm getting them. I'm sure your GM will not be interested. I will be looking for something for October-March. I do have some sort of limited schedule but if you're interested and need people then let me know
+    - Hello:) Thank you so much for this opportunity for me... but right now i have a lot of work in PERSON.. thought would be not so busy in summer.. and would be 3 of 4 days off in a week.. but we have a full schedule right now... but my husband PERSON.. he was on interview too in 631 Grand Army McDonald's.. and he is interested in position of crew member on middle or second shift... and will be happy to join the team..Thank you so much:) With PERSON PERSON
+    - If this is really someone working with a hiring manager for Dunkin, I'd love another job, part time. But I don't like making coffee, especially the fancy drinks. I know I get stressed out when my orders wrong and I've had my share of that type of work as is. I love to clean though, and honestly every Dunkin I've been to could be cleaner or even a lot cleaner. There's usually a couple to three maybe four workers behind the counter and it gets really busy, not alot of time to actually maintain the place. So if there were a cleaning position, that was just a cleaning position I'd take that any day. Especially now with how the world is. But I don't see that happening, even when America runs on Dunkin. Thank you for the offer and have a great day!
+    - Sure. $25 an hour, three days a week, fixed schedule. I've worked every non-manager position in a kitchen
+    - My bad I'll still work i thought i had to work 10 hours
+    - Yes However only during the week and only during the day part time. I dont know if that would fit into your schedule. Thanks for getting in touch with me.
+    - I did but you're too busy for an interview so the PERSON constantly reschedules... 
+    - yeah sure
+    - that sounds good
+    - Hi! I had already worked for that white castle and left but if you've got any part time positions for one or two days a week I might be interested
+    - Thank you very much for your acknowledging my application, i am very much interested to join the team. i would just like to finish the finals week in my school hoping to be scheduled soonest available time. Have a blessed day
+
+- intent: deny
+  examples: |
+    - Possibly, I'd only be available part-time/into scheduling for three jobs I currently have.  Your message says Massachusetts what specific location are you referring to?  If it is within 20 miles of Pittsfield, feel free to pass along my number and interest.
+    - Hello. Which location?
+    - I didnt apply, which location is this
+    - Which location are you recruiting for?
+    - And which white castle location would the job be fore
+    - What location is this?
+    - Hi, witch location was this?
+    - How much is the pay and what location
+    - Hey do you have a pompano beach location?
+    - Hello sorry I did not, is there any openings at a Coral Springs location?
+    - At what location
+    - I want work on abbotsford location
+    - which location
+    - Any locations in Georgia
+    - Sure and which location is this
+    - Hey there, which location are you hiring for?
+    - Which location is this
+    - Yes I am interested. I didn't receive a message. Please have her contact me.  Can you provide the location of the restaurant?
+    - Is this for the Redding location
+    - Hey there, I'm a job coach and have many individuals that could use employment. Which location are you at?
+    - Do you need part time employment at the Dover location or any near there?
+    - I have to check the location please
+    - Will Friday morning work out which location ?
+    - Do you have a location in Cincinnati
+    - Which location is this for ?
+    - I have moved to Madison, do you have anything closer to my location?
+    - What location and I make 18 dollars an hour where I work now so if you can match that then ok
+    - I'm just wondering what location is it that your specifically looking for
+    - For Newport location
+    - Which location?
+    - Where in the. Cape location
+    - What is the location?
+    - Sure which location?
+    - What location is this
+    - Which location is this for?
+    - Which location is this offer for?
+    - Which location 
+    - what's the location
+    - Hello how are you.wat city in florida are you working wit dunkin donuts,wat location an position as well
+    - Yes but I'm not close to that location anymore would I be able to go to another one closer to me
+    - Hey Rob! Is this the Owosso or Corunna location?
+    - Which location are you hiring for?
+    - Newark location?
+    - Different location ?
+    - Good afternoon. Which location is this?
+    - I've worked for the coughlin inc three times at two locations if I were to go back it definitely wouldn't be to south barre,
+    - Hello which location is this
+    - What if I want to work at a different location?
+    - Possibly where is your location I live in Camden but I'm working in a kitchen in Camden making 14-15 an hour as a healthcare dietary aid
+    - I'd actually like to apply to a closer McDonald's location
+    - Which location is hiring?
+    - I would love to but where is the location
+    - What location I work for 49
+    - I would only consider it if the location was close to Canton Ma
+    - Is that the only location? I live in Brooklyn park. That will be too far .
+    - Yes I saw your message from July 14th and I was debating whether or not I should work for Dunkin Donuts again. The last location I worked at was terrible, the manager yelled at employees and customers and was a very hostile work environment. I do have a full time job now but I am looking for something part time. My only availability is from 4am to 9am Monday, Tuesday, Wednesday and Friday. I work in North Chelmsford so something not too far from there would work.
+    - Which location
+    - Any other locations?
+    - Where is the location
+    - Not at this location a different one possibly part time
+    - Are you hiring at any other location?
+    - Hi do you still need someone to sell donuts at your Chapman Hwy location?
+    - What location? I moved to oak lawn
+    - I can work at a different location
+    - Are there any other locations?
+    - It is a possibility to return but it would not be with the same location.
+    - Are there any locations in the Louisville area
+    - What is the location
+    - I quit this location years ago
+    - Are you only holding interviews for the location in Lombard?
+    - witch locations
+    - yes I'm interested but this location is very far from me so is this the only location hiring
+    - What location
+    - I would do u guys have locations in Houston
+    - Any east side location
+    - Hey what location is this ?
+    - what's the location? on pbsc campus?
+    - Is there another location? Perhaps East
+    - What is the location of the white castle?
+    - Where the location
+    - I thought you were hiring at the Derry location
+    - In what location ?
+    - Hi Thank you for reaching out for me Where did you get my phone # from ?! Where is the location at in NY?!
+    - If yes what the location downtown or the mall ?
+    - Does it have to be overland rd location?
+    - Which locations are hiring
+    - I don't wanna work at that location tunnel rd is the store I want
+    - is there a way that i can work at the location closer to me
+    - Depending on location
+    - If you had a closer location I'd love too.
+    - Which location is this for again?
+    - Where is your location
+    - Is it possible if I can change locations?
+    - what location
+    - Ok where is your office location is at
+    - Were is your location
+    - Another location maybe
+    - What hours and location y'all looking for
+    - I'm interested but I live in carrollton now. So I'll have to be at a closer location.
+    - YES possibly... what is your closest location to maple falls?
+    - Hello , I'm sorry where is this location ?
+    - not this location
+    - Yes where is the location at
+    - Is it just for this location
+    - What is the hours you looking for and what location
+    - which location?
+    - Good morning. What White Castle location is this ?
+    - Any openings at Lacey Blvd location?
+    - Is the mayfield location hiring? I would apply but I have moved.
+    - What location is this for again?
+    - I'm getting now where is location
+    - I need Dunkin location
+    - Any location accept Simpsonville.
+    - I can't do this location I can only do the one on Washington
+    - Your location far
+    - Is Taylor Michigan the closet location you have?
+    - It depends on the location.
+    - Where is this White Castle location
+    - Is there a location closer to me?
+    - Hello for which location
+    - Is there another location besides Indiana
+    - Where is this location
+    - Sure what location
+    - What White Castle location
+    - Where is this location because i live in fall river
+    - For which location?
+    - Were is your restaurant location
+    - Any other location
+    - Id be interested in a closer location. Thank you.
+    - For what location is it
+    - Which location are you guys?
+    - What location is it for
+    - Hi ..what location is this ?
+    - Hello. What location? I reside in Spring Hill, FL
+    - Which location and who are you tryin to reach?
+    - Is this location in Las Vegas?
+    - Maybe in the future at a different location
+    - Yes I am very interested which location are you talking about if you don't mind me asking
+    - Hi what's the location of the store?
+    - What location?
+    - What are the locations?
+    - Do you have a different location that closer
+    - What's the location
+    - Hi! Which location is this for again?
+    - It depends on the location of the restaurant
+    - What's your name and what locations are hiring? Are you a manager yourself?
+    - Maybe another location
+    - I need a different location
+    - What's the locations
+    - I  am always happy to work with you but i can't do on this location
+    - what is the location of the White Castle
+    - Where this White Castle location
+
+- intent: ask_location
+  examples: |
+    - Possibly, I'd only be available part-time/into scheduling for three jobs I currently have.  Your message says Massachusetts what specific location are you referring to?  If it is within 20 miles of Pittsfield, feel free to pass along my number and interest.
+    - Hello. Which location?
+    - I didnt apply, which location is this
+    - Which location are you recruiting for?
+    - And which white castle location would the job be fore
+    - What location is this?
+    - Hi, witch location was this?
+    - How much is the pay and what location
+    - Hey do you have a pompano beach location?
+    - Hello sorry I did not, is there any openings at a Coral Springs location?
+    - At what location
+    - I want work on abbotsford location
+    - which location
+    - Any locations in Georgia
+    - Sure and which location is this
+    - Hey there, which location are you hiring for?
+    - Which location is this
+    - Yes I am interested. I didn't receive a message. Please have her contact me.  Can you provide the location of the restaurant?
+    - Is this for the Redding location
+    - Hey there, I'm a job coach and have many individuals that could use employment. Which location are you at?
+    - Do you need part time employment at the Dover location or any near there?
+    - I have to check the location please
+    - Will Friday morning work out which location ?
+    - Do you have a location in Cincinnati
+    - Which location is this for ?
+    - I have moved to Madison, do you have anything closer to my location?
+    - What location and I make 18 dollars an hour where I work now so if you can match that then ok
+    - I'm just wondering what location is it that your specifically looking for
+    - For Newport location
+    - Which location?
+    - Where in the. Cape location
+    - What is the location?
+    - Sure which location?
+    - What location is this
+    - Which location is this for?
+    - Which location is this offer for?
+    - Which location 
+    - what's the location
+    - Hello how are you.wat city in florida are you working wit dunkin donuts,wat location an position as well
+    - Yes but I'm not close to that location anymore would I be able to go to another one closer to me
+    - Hey Rob! Is this the Owosso or Corunna location?
+    - Which location are you hiring for?
+    - Newark location?
+    - Different location ?
+    - Good afternoon. Which location is this?
+    - I've worked for the coughlin inc three times at two locations if I were to go back it definitely wouldn't be to south barre,
+    - Hello which location is this
+    - What if I want to work at a different location?
+    - Possibly where is your location I live in Camden but I'm working in a kitchen in Camden making 14-15 an hour as a healthcare dietary aid
+    - I'd actually like to apply to a closer McDonald's location
+    - Which location is hiring?
+    - I would love to but where is the location
+    - What location I work for 49
+    - I would only consider it if the location was close to Canton Ma
+    - Is that the only location? I live in Brooklyn park. That will be too far .
+    - Yes I saw your message from July 14th and I was debating whether or not I should work for Dunkin Donuts again. The last location I worked at was terrible, the manager yelled at employees and customers and was a very hostile work environment. I do have a full time job now but I am looking for something part time. My only availability is from 4am to 9am Monday, Tuesday, Wednesday and Friday. I work in North Chelmsford so something not too far from there would work.
+    - Which location
+    - Any other locations?
+    - Where is the location
+    - Not at this location a different one possibly part time
+    - Are you hiring at any other location?
+    - Hi do you still need someone to sell donuts at your Chapman Hwy location?
+    - What location? I moved to oak lawn
+    - I can work at a different location
+    - Are there any other locations?
+    - It is a possibility to return but it would not be with the same location.
+    - Are there any locations in the Louisville area
+    - What is the location
+    - I quit this location years ago
+    - Are you only holding interviews for the location in Lombard?
+    - witch locations
+    - yes I'm interested but this location is very far from me so is this the only location hiring
+    - What location
+    - I would do u guys have locations in Houston
+    - Any east side location
+    - Hey what location is this ?
+    - what's the location? on pbsc campus?
+    - Is there another location? Perhaps East
+    - What is the location of the white castle?
+    - Where the location
+    - I thought you were hiring at the Derry location
+    - In what location ?
+    - Hi Thank you for reaching out for me Where did you get my phone # from ?! Where is the location at in NY?!
+    - If yes what the location downtown or the mall ?
+    - Does it have to be overland rd location?
+    - Which locations are hiring
+    - I don't wanna work at that location tunnel rd is the store I want
+    - is there a way that i can work at the location closer to me
+    - Depending on location
+    - If you had a closer location I'd love too.
+    - Which location is this for again?
+    - Where is your location
+    - Is it possible if I can change locations?
+    - what location
+    - Ok where is your office location is at
+    - Were is your location
+    - Another location maybe
+    - What hours and location y'all looking for
+    - I'm interested but I live in carrollton now. So I'll have to be at a closer location.
+    - YES possibly... what is your closest location to maple falls?
+    - Hello , I'm sorry where is this location ?
+    - not this location
+    - Yes where is the location at
+    - Is it just for this location
+    - What is the hours you looking for and what location
+    - which location?
+    - Good morning. What White Castle location is this ?
+    - Any openings at Lacey Blvd location?
+    - Is the mayfield location hiring? I would apply but I have moved.
+    - What location is this for again?
+    - I'm getting now where is location
+    - I need Dunkin location
+    - Any location accept Simpsonville.
+    - I can't do this location I can only do the one on Washington
+    - Your location far
+    - Is Taylor Michigan the closet location you have?
+    - It depends on the location.
+    - Where is this White Castle location
+    - Is there a location closer to me?
+    - Hello for which location
+    - Is there another location besides Indiana
+    - Where is this location
+    - Sure what location
+    - What White Castle location
+    - Where is this location because i live in fall river
+    - For which location?
+    - Were is your restaurant location
+    - Any other location
+    - Id be interested in a closer location. Thank you.
+    - For what location is it
+    - Which location are you guys?
+    - What location is it for
+    - Hi ..what location is this ?
+    - Hello. What location? I reside in Spring Hill, FL
+    - Which location and who are you tryin to reach?
+    - Is this location in Las Vegas?
+    - Maybe in the future at a different location
+    - Yes I am very interested which location are you talking about if you don't mind me asking
+    - Hi what's the location of the store?
+    - What location?
+    - What are the locations?
+    - Do you have a different location that closer
+    - What's the location
+    - Hi! Which location is this for again?
+    - It depends on the location of the restaurant
+    - What's your name and what locations are hiring? Are you a manager yourself?
+    - Maybe another location
+    - I need a different location
+    - What's the locations
+    - I  am always happy to work with you but i can't do on this location
+    - what is the location of the White Castle
+    - Where this White Castle location
+
+- intent: ask_schedule
+  examples: |
+    - Hi, judging by my previous time working at that location, i wouldnt work there for anything less than a overnight, full time position paying at least 15/hr. This is most likely a shot in the dark, knowing the owner.
+    - What are your hours ?
+    - and what's the hours like weekly
+    - What shift hours do you have?
+    - For what hours
+    - I have a part time job can you work around that schedule?
+    - Would you be willing to work around another schedule? I have a job part time job but if you're willing to work with me i would be happy to
+    - Yes but I have a full time job at the moment could you work around my schedule?
+    - What are the hours like
+    - Hello, this is PERSON what shift and what position
+    - Hi PERSON, do you have flexible schedules? I am enrolled in 12 credit hours this summer and need a slightly flexible schedule.
+    - How many hours will I get
+    - I'm kinda on the fence. I really need the job because I've got mouths to feed. And I think I got another baby on da way! I need good hours.
+    - What hours you have
+    - Hi! What hours were you looking to hire for?
+    - Do you have PT positions available?
+    - What hours?
+    - Hello! What schedule and position do you need help with?
+    - I need 7 otr and 9 in store and 50+ hours
+    - What hours I'm looking for morning shift
+    - Can the Hunter rd location work with me on first shift hours ? Something like 8am to 4pm
+    - What hours
+    - Hi! What would be the hours, and what do you have available?
+    - Hello Rob yes what are the hours you have available?
+    - What are the hours
+    - If I work weekend what will be my hours
+    - is the schedule flexible
+    - What would be my schedule
+    - What would the hours be? I would be open to a second job for a few part time evening hours
+    - What's the hours??
+    - will i get over 40 hours a week?
+    - I will only wrok at your place if you guy's give me a schedule on Wednesday and Thursday and u can give me whatever time u will like but if u don't have these open when no i will not like to work there thank you
+    - Depends on the hours
+    - How are the hours?
+    - How're the hours? I work at Popeyes and am getting maxed out
+    - What are the schedules your offering? I can only do early morning shifts.
+    - Hi I'm her friend what hours
+    - Hi Rob, what positions do you guys have there and availability are you looking for?
+    - I'll come back if I get a full time position with 40 hours a week
+    - Hi. I'm currently working at Homegoods, but I'm interested in a second job. What would be the schedule for night shifts?
+    - Hey good morning hope you are well, but in order for me to do that I would need day shift and mon-Friday at 15.00 I have over 10 years of customer service. Right now Iam in property management! With a set schedule
+    - When would the hours be because I work Monday- Friday already but if you guys can offer more hours I'd be willing
+    - It depends on the hours
+    - 40 hours weekly
+    - Hello, I might be. What hours are you offering?
+    - What are the hours ?
+    - Hey Rob, I'm sorry for taking so long to respect me. What position are you looking to fill, and any particular shift?
+    - Good afternoon,. Yes I got your message. What hours are the evening shift. My current schedule on Post is 07:30-3:30  M-F . If possible, I would like a schedule with the hours of 4:30 - 12:00Am. (If possible) and some weekends.
+    - Hi Rob! Thanks for reaching out! I am possibly still interested. What driving hours are needed?
+    - I need like 4 hours 2x per week
+    - I just had a baby so I can only work very little hours a week
+    - What hours ?
+    - What would the hours be?
+    - Hey it's Thierry I had started a new job and I appreciate the offer and I'm thankful but ya I just started another one and i don't know if I could do both cause of my hours of there and I play sports so if you want me to do like 3 hours a couple of day a week I can
+    - Sorry for the late response but can you tell me the hours of work if possible
+    - What position? And are you able to work around schedules?
+    - And may I ask who's calling and what hours would I be working I be working
+    - I work at olive garden so i would need very few hours or a. Flexible scheual
+    - Do you guys have flexible schedules
+    - What hours are available!
+    - Depends on the hours I need strictly night shift
+    - Which position? What will be the hours?
+    - It would depend on the schedule and position.
+    - I was actually working towards being a manager there for a while. I worked at coon rapids location for quite a while. Some things happened in my life that took me from the job and I won't be in mn much longer. I would still pick up some overnight shifts two maybe three days a week but most don't hire that low of hours
+    - With a m-F 0700-330 pm schedule
+    - Yesn What would my hours and benefits look like?
+    - May I ask how are you hours are
+    - Is it 40 hours
+    - I already work at dominoes I need to be on the schedule for the week the only from 5 to 1 pm
+    - I might actually apply once the summer begins although i just trained at Walgreens. Is the schedule pretty flexible?
+    - Yes what are the hours you are needing?
+    - What kind of hours are you needing to be filled?
+    - And 40 hours?
+    - I'm already working at the store in Lithonia...not really looking for anymore hours right now
+    - What hours? 40 a week ?
+    - Yes. What hours do you have available?? Open??
+
+- intent: ask_position
+  examples: |
+    - Hi,  What position are you looking to hire for?  Thanks  PERSON
+    - What is the position for and please let me know what the Salary range is   Thank you
+    - Hey what's up Manny how much are we talking and what's the position
+    - Hey Rob, that was a while a ago i you could please refresh my mind as to what position it was and the compensation? Thank you.
+    - Afternoon Rob. What type of position available? Thank you.
+    - Hello Rob. I see that you still are seeking employees for your store location. I only have the use of my left (non-dominant) arm. What positions are available that can be completed with one arm?
+    - Thank you for reaching out I am only interested in management positions i.e. general manager etc. I have 25 years of general and executive management experience with hotels and restaurants.
+    - At this time I'm looking for store Manager positions only
+    - Any gm positions
+    - Hi, Thank you for reaching out! I dont recall applying for a position with Arbys. Can you please inform me what this position is for?
+    - Do you have a Management position open that pays $21 an hour or more?
+    - What is the position?
+    - Is a  GM or manager position available?
+    - That's actually 42 minutes away from where I live and I'm looking for more of a management/ salary position I have a child that I need to be present for to drop him off in the mornings and pick him up from school so if there's any assistant manager or store manager positions open around this are that pay well and can work with my schedule of course
+    - I did get your message.  Thank you for your interest in me.  I just began a position at Goodwill Naval Station Great Lakes. Just curious,  what is the pay for your managers and District Managers?
+    - Hello Rob, thanks for reaching out.  What position would this potentially be for?
+    - What is the position? I'm currently a manufacturing EHS Manager in middletown Dae
+    - I'm currently a Manager. Are you hiring for management positions?
+    - Is this for the General Manager position?
+    - 1. How the heck did you get my number? 2. Only if you are hiring for a regional manager position 3. I am currently GM of a National Park  4. I have many years of multi-unit restaurant management as well as multi-restaurant ownership   If you are interested in discussing a substantive role with McDonalds,  don't hesitate to call me.....Michael
+    - Hi. Are there Baker positions available?
+    - Hi Rob. I don't recall every applying to work at that location?  What positions are you trying to fill?
+    - Who is this and depending on position.  My experience is in Management and HR
+    - Employee or Mgr position
+    - Good morning. Currently, I'm only interested in Manager positions. Thank you
+    - Currently I am working at Lowe's Foods, making 9.50 an hour, would Domino's have better pay with atleast 40 hours a week? And what would the position be?
+    - It depends the location and position I Have tons of fast food experience shift lead and manager Im actually unemployed but if you have lead or manager opening I will def consider
+    - Hi Rob What's the position and pay rate
+    - Would it be for both stores? And which position sir?
+    - Hi Rob, depending on the position possibly
+    - Salary?  What position do you have available
+    - Hey Rob maybe, what positions are available?
+    - Hi Rob, this is my first time seeing this message. I apologize for the late response. May I ask what the position is?
+    - Hi Rob, thank you for reaching out. Yes, I worked as a delivery driver for over a year there several years ago. What positions are you hiring for?
+    - Hi, so sorry about the late reply, I was moving. I would love to, however ive had bad experiences with my previous Dunkin career and was wondering if there was any manager positions available?
+    - Is it a manager's or supervisor position? What is annual pay? Hours, days scheduled to work? How soon and how much PTO or vacation time? Is there health insurance and do you carry a  401K? What area?
+    - Hi, just wondering since I used to work at this location, are you looking to rehire old employees for full time positions?
+    - Hey Rob, What position is this?
+    - Hi Dunkin, what positions do you have available?
+    - Hello Rob, is this for a delivery driver position?
+    - Hi thank you for contacting me, I I'm currently in school. What positions and hours you looking for ?
+    - Job position?
+    - Thank you Dominos! Do you have any Regional Management positions available?
+    - Is this for a Management position?
+    - Hey Rob, unless it's for a management position I don't think it will work out.
+
+- intent: ask_wage
+  examples: |
+
+- intent: ask_wage_schedule
+  examples: |
+    - Yes if y'all can compare to what I make now. 13 an hour plus pto time full time hours
+    - I require $25 a hour and 80 hours a week with a $500 bonus a week and I got you I'll run that shit
+    - What are the hours and pay
+    - Hi. It really just depends on how much pay is and how many hours are available
+    - I make $13.50 an hour where I currently work with 40 hours a week with overtime opportunity, do you offer better opportunities
+    - Whats the pay and the hours i have small children i can only work Monday - Friday 7- 3between those hrs and i can do 40 hrs weekly
+    - If u pay me $20/hr and let me choose my schedule then maybe
+    - Sorry. Been working a lot. I started for the USPS. Good money. Not thrilled about hours. What kind of pay do you offer? And hours?
+    - What is the starting pay and hours i would be working?
+    - I would need to know more information such as hours (amount and when) and potential start out pay rate.
+    - How much are is starting pay for crew? How many hours per week.
+    - I'm a shift manager at the moment making 19 an hour, can u beat that, and have a set schedule
+    - I want a manager position starting at $22.00 an hour guaranteed 35 hours a week.
+    - Yeah I would be interested but before I do im going to need 20 to 25$ an hour and 40+ hours a week
+    - I have management experience can u pay 15 an hour and 40 hours a week
+    - I would need 25$ per hour, 40 hours a week with possibility of overtime. Is that possible?
+    - What's the pay and hours?
+    - Hey Rob..can you tell me what is the hire in wage and the hours
+    - I will if I can get guaranteed $15.00 an hour and 40 hours a week with every other Saturday and Sunday off for my weekends with my daughter. That Friday I'd have to be off by 3:30 pm to pick my daughter up by 4
+    - Whats the hours and pay?
+    - That really depends on what can be offered. Currently working 40 hours making $12/hour.
+    - Yall pay me 18.60 give me 24 hours a week with health insurance and I'll come work.
+    - So like let's talk schedule and $. What's the minimum availability and what does it pay.
+    - If you pay 35 per hour from Monday to Friday from 5a.m. to 4p.m at the minimum 40 hours per week I am available
+    - Hi Rob, what is the pay, hours and benefits? Thank you
+    - If you can beat $25.75 an hour and schedule me only on weekdays.
+    - That depends I am already working at the McDonald's on 19th and PERSON for $14 an hour do you guys want to pay me more and you have to guarantee me at least 40 hours a week
+    - Hi, thank you for reaching out.  What would the schedule and pay look like?
+    - Depends on pay and hours
+    - What is the hours .  And pay
+    - Depending on the pay and if you guys can work with my hours
+    - Depends on schedule and pay but I'm open minded
+    - What are u hiring at and how many hours a week?
+    - How mant hours would i get and what the starting pay?
+    - If the pay is higher than $13 an hour, off every sunday and tuesday, off by 3pm and a full 40 hours a week
+    - If pay is bumped up a dollar and I get hours I want I will come back and work
+    - Listen here PERSON if you give me 15 an hour and 39 hours a week then we could talk
+    - Not unless they are willing to beat 17$ an hour 40 hours a week.
+    - what are the hours, pay, duties for the position?
+    - Thank you but as a manager where I am I am making 17 an hour and guarantee 45-50 hours a week plus 3 weeks vacation and health insurance can that be matched or a better offer?
+    - Unless it's Monday through Friday day shift with a day off if needed, flexible schedule and 17$ an hour I have to decline
+    - I would but i make 13 and get 45 hours a week at mcdonalds and i dont think you can top that
+    - I'm making 15 an hour and getting 40 hours a week and 1 break every 2 hours. If you can pay better and give equal hours the I'm willing to leave my current job
+    - How much a hour, how many hours a day thank you
+    - I'm making 14.40 where I am. If you can match possibly. Also having a kid in September so I would need a set schedule so both me and my girlfriend can work opposite shits
+    - Sure if you can match the 21.50 I make now, plus 3 weeks vacation, at least 40 hours a week, and good insurance.
