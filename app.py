@@ -13,14 +13,23 @@ in_csv = 'other.csv'
 out_csv = 'new_data.csv'
 messages = []
 
+#Description: route to call homepage of website 
+#Pre: 
+#Post: renders home page html
 @app.route('/', methods=["GET", "POST"])
 def base():
     return render_template('base.html')
 
+#Description: call graph page test func
+#Pre: 
+#Post: renders graph html page with given values
 @app.route('/graph', methods=["GET", "POST"])
 def graph():
     return render_template('graph_orginal.html',values=[1,2,4,5,7],names=['x','y','s'])
-# '''SEND SMS '''
+
+#Description: Send sms to given mobile number (it should be activated with twilio before receiving message)
+#Pre: auth tokens
+#Post: send sms and return empty string
 @app.route('/sms', methods=['POST'])
 def sms():
     account_sid = 'AC19dd3735ece1bd2e811f05d98f826740'
@@ -35,19 +44,27 @@ def sms():
                                 )
     return ""
 
-
+#Description: read csv file
+#Pre: 
+#Post: return the recent one from given file
 @app.route("/getdata", methods=["GET"])
 def read_csv():
     if len(messages) < 1:
         return jsonify({'MESSAGE': "", 'SENDER_ID': "", 'FULL_CONV':"[]"})
     return messages.pop()
  
+#Description: append jsonified data to a global variable for further use
+#Pre:  
+#Post: return empty string
 @app.route("/savedata", methods=["POST"])
 def get_msg_id():
     jsdata = json.loads(request.get_json())
     messages.append(jsonify({'MESSAGE': jsdata["msg"], 'SENDER_ID': jsdata["id"], 'FULL_CONV':jsdata["all_msg"]}))
     return ""
 
+#Description: Update csv with given values x is marked at given column name
+#Pre: 
+#Post: write output to csv with marked cells
 @app.route("/senddata", methods=["POST"])
 def update_csv():
     jsdata = request.get_json()
@@ -71,7 +88,9 @@ def update_csv():
         f.write(output)
     return ""
 
-
+#Description: get count of rows in both csv's infile and outfile and training file
+#Pre: 
+#Post: return count and lables for graphs
 def rows_csv():
     in_rows = 0
     out_rows = 0
@@ -89,6 +108,11 @@ def rows_csv():
     lables = ['left','solved','trained']
     return rows,lables
 
+#Description: pass values with column names as lables and 
+              # to a template which uses chartjs cell count of each cell in a column
+
+#Pre: 
+#Post: return rendered template with values and lables for both graphs
 @app.route("/classify/stats")
 def csv_answered_data():
     response = {'yes':0,
@@ -111,5 +135,6 @@ def csv_answered_data():
                                                 file_names = labl )
 
 
+#initiates server
 if __name__ == '__main__':
    app.run(debug = True)
