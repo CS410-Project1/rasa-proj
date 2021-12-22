@@ -21,6 +21,10 @@ response = requests.get
 SHARED_FILE = "other.csv"
 FLASK_API = "http://localhost:5000"
 
+# Description: this function will be called after rasa finds an intent it cannot classify
+#              when this happens, the conversation in rasa is paused and the session information
+#              is sent to the flask api
+
 class ActionPauseWriteCSV(Action):
     def name(self) -> Text:
         return "action_pause_write_csv"
