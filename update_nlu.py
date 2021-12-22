@@ -1,3 +1,6 @@
+# This is a script that was made to read the data from the excel files we were given
+# and convert it into a nlu.yaml file that rasa could read and learn from
+
 import csv
 import string
 
